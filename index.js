@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express();
+const cors = require('cors');
 const port = 3000;
 app.listen(port,()=>{
     console.log('am using port 2000')
@@ -7,6 +8,7 @@ app.listen(port,()=>{
     console.log(`am using port ${port} `);
     console.log('music is life')
 })
+app.use(cors());
 const songs =[
     {
         id:1,
