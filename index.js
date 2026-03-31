@@ -9,6 +9,7 @@ app.listen(port,()=>{
     console.log('music is life')
 })
 app.use(cors());
+app.use("/Image", express.static("Public/image"))
 const songs =[
     {
         id:1,
