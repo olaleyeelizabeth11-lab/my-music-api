@@ -9,7 +9,7 @@ app.listen(port,()=>{
     console.log('music is life')
 })
 app.use(cors());
-app.use("/Image", express.static("Public/image"))
+app.use("/Image", express.static("Public/Image"))
 const songs =[
     {
         id:1,
@@ -18,7 +18,7 @@ const songs =[
         Genre:"POP",
         Duration:"3:20",
         ReleaseYear:2019,
-        ImageURL:`/Image/1.jpg`,
+        ImageURL:"Public\Image\1.jpg",
     },
     {
         id:2,
@@ -27,7 +27,7 @@ const songs =[
         Genre:"Afrobeats",
         Duration:"3:39",
         ReleaseYear:2022,
-        ImageURL:`/Image/2.jpg`,
+        ImageURL:"Public\Image\2.jpg",
     },
     {
         id:3,
@@ -36,7 +36,7 @@ const songs =[
         Genre:"Afrobeats",
         Duration:"4:09",
         ReleaseYear:2020,
-        ImageURL:`/Image/Wizkid.jpg`,
+        ImageURL:"Public\Image\Wizkid.jpg",
     },
     {
         id:4,
@@ -45,7 +45,7 @@ const songs =[
         Genre:"POP",
         Duration:"3:51",
         ReleaseYear:2021,
-        ImageURL:`/Image/4.jpg`,
+        ImageURL:"Public\Image\4.jpg",
     },
     {
         id:5,
@@ -54,7 +54,7 @@ const songs =[
         Genre:"Afrobeats",
         Duration:"2:52",
         ReleaseYear:2022,
-        ImageURL:`/Image/5.jpg`,
+        ImageURL:"Public\Image\5.jpg",
     },
     {
         id:6,
@@ -63,7 +63,7 @@ const songs =[
         Genre:"Afrobeats",
         Duration:"3:33",
         ReleaseYear:2014,
-        ImageURI:`/Image/Wizkid.jpg`,
+        ImageURL:"Public\Image\Wizkid.jpg",
     },
     {
         id:7,
@@ -72,7 +72,7 @@ const songs =[
         Genre:"Afrobeats",
         Duration:"3:50",
         ReleaseYear:2018,
-        ImageURL:`/Image/2.jpg`,
+        ImageURL:"Public\Image\5.jpg",
     },
     {
         id:8,
@@ -81,7 +81,7 @@ const songs =[
         Genre:"Afrobeats",
         Duration:"3:05",
         ReleaseYear:2022,
-        ImageURL:`/Image/Ayra_Starr.jpg`,
+        ImageURL:"Public\Image\Ayra_Starr.jpg",
     },
     {
         id:9,
@@ -90,7 +90,7 @@ const songs =[
         Genre:"Afrobeats",
         Duration:"2:25",
         ReleaseYear:2019,
-        ImageURL:`/Image/CKay.jpg`,
+        ImageURL:"Public\Image\CKay.jpg",
     },
     {
         id:10,
@@ -99,7 +99,7 @@ const songs =[
         Genre:"Hip-Hop",
         Duration:"3:19",
         ReleaseYear:2018,
-        ImageURL:`/Image/Drake.jpg`,
+        ImageURL:"Public\Image\Drake.jpg",
     }
 ];
 
