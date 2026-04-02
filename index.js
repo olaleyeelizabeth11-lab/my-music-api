@@ -10,6 +10,8 @@ app.listen(port,()=>{
 })
 app.use(cors());
 app.use("/Image", express.static("Public/Image"))
+app.use("/Music", express.static("Public/Music"))
+
 const songs =[
     {
         id:1,
